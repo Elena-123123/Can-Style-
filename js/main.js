@@ -4,11 +4,14 @@ $(document).ready(function(){
       dotsEach: true,
       items:1,
       nav : true,
-      smartSpeed:1000,
+      smartSpeed:2000,
       autoplayTimeout: 2000,
       dots: true
     });
+   
   });
+
+
   $(document).ready(function(){
     $(".slide-2").owlCarousel({
       margin: 10,
@@ -21,7 +24,7 @@ $(document).ready(function(){
         0:{
           items:1
         },
-        600:{
+        769:{
           items: 4
         }
       }
@@ -51,4 +54,3 @@ $(document).ready(function(){
       header.classList.remove('header-fixed');
     }
   }
- 
